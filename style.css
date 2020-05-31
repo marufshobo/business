@@ -196,6 +196,21 @@ html{
 .top-margin{
     margin-top: 45px;
 }
+
+.btn-custom{
+    background-color: #87b672;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 0;
+    padding: 6px 15px;
+    transition: 0.5s all;
+}
+
+.btn-custom:hover{
+    border: 2px solid #87b672;
+    color: #87b672;
+    background-color: transparent;
+}
 /* protfollio part end */
 
 
