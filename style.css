@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header area design start */
+.header{
+    background-image: url(img/slider-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive; 
+}
+.navbar-brand a{
+    color:#ffffff !important;
+    text-decoration: none;
+}
+.social-icon ul li{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 14px;
+}
+.social-icon ul li a{
+    color: #686666;
+    font-size: 20px;
+    
+}
+/* header area design end */
+
+/* font-family: 'Pacifico', cursive; */
