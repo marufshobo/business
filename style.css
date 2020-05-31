@@ -58,15 +58,84 @@ html{
 .menu ul li a:hover{
     color: #87b672 !important;
 }
-.navbar{
-    padding-left: 0px;
-    margin-left: 0px;
-    margin-right: 16%;
-    padding-right: 0px;
+.navbar {
+	padding-left: 0px;
+	margin-left: -195px;
+	padding-right: 0px;
+}
+.search{
+    color: #ffffff;
+    cursor: pointer;
 }
 
 /* header area design end */
+/* slider part start */
+.slider-content{
+    padding: 50px 0;
+}
+.slider-content h1{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 60px;
+}
+.slider-content p{
+    font-size: 22px;
+    color: #ffffff;
+}
+.btn-slide{
+    border: 2px solid #ffffff;
+    padding: 6px 15px;
+    border-radius: 0;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 20px 0 50px 0;
+}
+.btn-slide:hover{
+    color: #87b672 !important;
+}
+.carousel-indicators li{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: all 0.5s;
+}
+.carousel-indicators li:hover{
+    transform: scale(1.2);
+}
 
+.carousel-indicators .active{
+    transform: scale(1.2);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    line-height: 35px;
+    
+}
+.carousel-control-prev-icon i, .carousel-control-next-icon i{
+    color: #686666;
+    font-size: 18px;
+    
+}
+.carousel-control-prev-icon {
+	position: absolute;
+	top: 31%;
+	left: 0;
+}
+.carousel-control-next-icon {
+    position: absolute;
+	top: 31%;
+	right: 0px;
+}
+
+/* slider part end */
 
 
 
