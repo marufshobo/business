@@ -152,9 +152,7 @@ html{
     color: #666262;
     padding-bottom: 40px;
 }
-.service-part{
-    padding: 80px 0;
-}
+
 .icon i{
     font-size: 100px;
     padding-bottom: 25px;
@@ -173,6 +171,32 @@ html{
 }
 /* service part start */
 
+/* protfollio part start */
+.protfollio{
+    padding: 80px 0 100px 0;
+    background-color: #efefef;
+}
+.port-imgage{
+    padding-bottom: 80px;
+}
+.single-img{
+    margin-top: -168px;
+}
+.single-img-2{
+    margin-top: -150px;
+}
+.single-img h4, .single-img-2 h4{
+    color: #666262;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-bottom: 40px;
+}
+
+.top-margin{
+    margin-top: 45px;
+}
+/* protfollio part end */
 
 
 
