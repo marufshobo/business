@@ -136,7 +136,24 @@ html{
 }
 
 /* slider part end */
+.service{
+    padding: 80px 0;
+}
+.service-content h3{
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #666262;
+    padding-bottom: 20px;
+}
+.service-content p{
+    font-size: 15px;
+    color: #666262;
+    padding-bottom: 40px;
+}
+/* service part start */
 
+/* service part end */
 
 
 /* font-family: 'Pacifico', cursive; */
