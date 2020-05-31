@@ -3,6 +3,9 @@
     .navbar {
         margin-left: 0px;   
    } 
+   .service-part {
+	padding: 10px 0;
+}
  }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -10,6 +13,9 @@
     .navbar {
         margin-left: 0px;   
    } 
+   .service-part {
+	padding: 20px 0;
+}
  }
 
  /* Medium devices (tablets, 768px and up) */
